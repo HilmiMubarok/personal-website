@@ -38,7 +38,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Mari bekerja sama dengan saya &#128071;</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
@@ -72,7 +72,7 @@ const Footer = () => {
       ) : (
         <div>
           <h3 className="head-text">
-            Thank you for getting in touch!
+            Terimakasih telah menghubungi saya!. See you later! &#128075;
           </h3>
         </div>
       )}
