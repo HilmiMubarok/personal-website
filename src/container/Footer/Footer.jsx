@@ -32,6 +32,7 @@ const Footer = () => {
         setLoading(false);
         setIsFormSubmitted(true);
       })
+      // eslint-disable-next-line no-console
       .catch((err) => console.log(err));
   };
 
@@ -42,11 +43,11 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">hello@micael.com</a>
+          <a href="m.hilmimubarok@gmail.com" className="p-text">m.hilmimubarok@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
+          <a href="+62 831 2790 3672" className="p-text">+62 831 2790 3672</a>
         </div>
       </div>
       {!isFormSubmitted ? (
