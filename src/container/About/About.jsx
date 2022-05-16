@@ -19,8 +19,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">Tentang <span>Saya</span></h2>
-      <p style={{ marginTop: '20px', textAlign: 'left', width: '600px' }}>
-        Saya adalah seorang web developer. Saya belajar pemrograman sejak tahun 2013. Saat ini sudah memiliki pengalaman pembuatan beberapa sistem aplikasi berbasis website. Saya juga pernah menjadi speaker workshop tentang web development dan berbagi pengalaman seputar dunia programming.
+      <p style={{ marginTop: '20px', textAlign: 'center' }}>
+        Saya adalah seorang web developer. Saya belajar pemrograman sejak tahun 2013. <br /> Saat ini sudah memiliki pengalaman pembuatan beberapa sistem aplikasi berbasis website. <br /> Saya juga pernah menjadi speaker workshop tentang web development dan berbagi pengalaman seputar dunia programming.
       </p>
 
       <div className="app__profiles">
