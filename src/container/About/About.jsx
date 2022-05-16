@@ -1,3 +1,4 @@
+/* eslint-disable no-return-assign */
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -22,6 +23,9 @@ const About = () => {
       <p style={{ marginTop: '20px', textAlign: 'center' }}>
         Saya adalah seorang web developer. Saya belajar pemrograman sejak tahun 2013. <br /> Saat ini sudah memiliki pengalaman pembuatan beberapa sistem aplikasi berbasis website. <br /> Saya juga pernah menjadi speaker workshop tentang web development dan berbagi pengalaman seputar dunia programming.
       </p>
+      <button type="button" onClick={() => window.location.href = 'https://drive.google.com/file/d/1mN34aOuXREaD57BlWisGfM5FMQAkO5ns/view?usp=sharing'}>
+        Lihat CV Saya
+      </button>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
