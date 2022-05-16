@@ -1,3 +1,6 @@
+# Original Source Code and Video Tutorial
+[Javascript Mastery Channel](https://www.youtube.com/watch?v=3HNyXCPDQ7Q&t=14817s&ab_channel=JavaScriptMastery)
+
 # Micael - The Ultimate Web Development Portfolio 
 ![Micael](https://i.ibb.co/fHPM38q/image.png)
 
